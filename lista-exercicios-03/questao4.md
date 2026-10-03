@@ -1,0 +1,3 @@
+a) Um array de primitivos (int[], double[]) guarda os próprios valores dentro dele, e já começa com valores padrão, como 0. Um array de objetos (Aluno[], Produto[]) guarda apenas referências aos objetos, que ficam em outro lugar da memória, e começa com todas as posições null. Criar o array não cria os objetos: cada um precisa ser criado com new.
+
+b) Ao acessar um array de objetos, o principal cuidado é verificar se a posição é diferente de null antes de usá-la, senão ocorre NullPointerException. Também é preciso criar o objeto antes de usá-lo e respeitar os limites do array, de 0 até length - 1.
